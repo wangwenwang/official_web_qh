@@ -82,7 +82,7 @@
     // 点击小图 大图变换
     $(".Wareh_Serv_image_swiper ul li").mouseenter(function(){
 
-        $(this).css("border","3px solid #ec662c").siblings().css("border","3px solid #fff")
+        $(this).css("border","3px solid #197dce").siblings().css("border","3px solid #fff")
         $(this).parents(".Wareh_Serv_image_swiper").find(".Wareh_Serv_big_images").children("img").attr("src",$(this).children("img").attr("src"))
       })
 

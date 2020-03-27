@@ -21,7 +21,7 @@
 .timeLine:after{
 	content: "";
 	width:10px;height: 10px;border-radius: 50%;
-	background-color: #ec662c;position: absolute;bottom: 0;left: -4px;
+	background-color: #197dce;position: absolute;bottom: 0;left: -4px;
 }
 /*阶段*/
 .textContainer{
@@ -127,7 +127,7 @@
 }
 .GM .dot{
 	width: 6px;height: 6px;border: 4px solid #fff;
-	border-radius: 50%;background-color: #ec662c;
+	border-radius: 50%;background-color: #197dce;
 	position: absolute;
 	top:36.5px;
 }
@@ -143,26 +143,26 @@
 
 /*特殊事记  左*/
 .specialGM,.special_right{
-	background-color: #ec662c;
-	border:1px solid #ec662c;
+	background-color: #197dce;
+	border:1px solid #197dce;
 }
 .specialGM>p,.special_right>p{
 	color: #fff;
 }
 .specialGM .angle_line{
-	border-left: 10px solid  #ec662c;
+	border-left: 10px solid  #197dce;
 }
 .specialGM>.Triangle{
 	
-	border-left: 10px solid #ec662c;
+	border-left: 10px solid #197dce;
 }
 
 /*特殊事记  右*/
 .special_right>.Triangle{
-	border-right: 10px solid #ec662c;
+	border-right: 10px solid #197dce;
 }
 .special_right .angle_line{
-	border-right: 10px solid  #ec662c;
+	border-right: 10px solid  #197dce;
 }
 
 @media screen and (max-width: 768px){
@@ -266,18 +266,18 @@
 
 	/*特殊事记  左*/
 	.specialGM .angle_line{
-		border-left: 2vw solid  #ec662c;
+		border-left: 2vw solid  #197dce;
 	}
 	.specialGM>.Triangle{
-		border-left: 2vw solid #ec662c;
+		border-left: 2vw solid #197dce;
 	}
 
 	/*特殊事记  右*/
 	.special_right>.Triangle{
-		border-right: 2vw solid #ec662c;
+		border-right: 2vw solid #197dce;
 	}
 	.special_right .angle_line{
-		border-right: 2vw solid  #ec662c;
+		border-right: 2vw solid  #197dce;
 	}
 
 }

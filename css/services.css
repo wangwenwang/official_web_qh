@@ -10,7 +10,7 @@
 }
 .Tab>.tabHead>div{
 	float: left;
-	border:1px solid #ec662c;
+	border:1px solid #197dce;
 	margin-right: 30px;
 	cursor: pointer;
 	position: relative;
@@ -28,7 +28,7 @@
 	margin-right: 0;
 }
 .Tab>.tabHead>.tabFirst{
-	background-color: #ec662c;
+	background-color: #197dce;
 }
 .Tab>.tabHead>.tabFirst span{
 	color: #fff;
@@ -37,7 +37,7 @@
 	position: absolute;
 	top: 0;left: 0;
 	height: 100%;
-	background-color:  #ec662c;
+	background-color:  #197dce;
 	width: 100%;
 	transition:all  0.2s ease-in-out;
 	transform:scale(0,1);
@@ -46,14 +46,14 @@
 
 .Tab>.tabHead>div:hover>div{
 	transform:scale(1,1);
-	background-color: #ec662c;
+	background-color: #197dce;
 }
 .Tab>.tabHead>div:hover>span{
 	color: #fff;
 }
 .Tab>.tabHead>div span{
 	font-size: 16px;
-	color: #ec662c;
+	color: #197dce;
 	padding: 12px 30px;
 	display: inline-block;
 	transition:all  0.2s;
@@ -142,7 +142,7 @@ img.XQ_style{
 	cursor: pointer;
 }
 .Wareh_Serv_image_swiper ul>li:first-child{
-	border:3px solid #ec662c;
+	border:3px solid #197dce;
 }
 .Wareh_Serv_image_swiper ul>li:last-child{
 	margin-right: 0;
@@ -187,7 +187,7 @@ img.XQ_style{
 		margin-right: 0;
 	}
 	.Tab>.tabHead>.tabFirst{
-		background-color: #ec662c;
+		background-color: #197dce;
 	}
 	.Tab>.tabHead>.tabFirst span{
 		color: #fff;
@@ -196,7 +196,7 @@ img.XQ_style{
 		position: absolute;
 		top: 0;left: 0;
 		height: 100%;
-		background-color:  #ec662c;
+		background-color:  #197dce;
 		width: 100%;
 		transition:all  0.2s ease-in-out;
 		transform:scale(0,1);
@@ -205,14 +205,14 @@ img.XQ_style{
 
 	.Tab>.tabHead>div:hover>div{
 		transform:scale(1,1);
-		background-color: #ec662c;
+		background-color: #197dce;
 	}
 	.Tab>.tabHead>div:hover>span{
 		color: #fff;
 	}*/
 	.Tab>.tabHead>div span{
 		font-size: 2vw;
-		/*color: #ec662c;*/
+		/*color: #197dce;*/
 		padding: 2vw 1.5vw;
 	/*	display: inline-block;
 		transition:all  0.2s;*/

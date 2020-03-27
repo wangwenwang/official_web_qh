@@ -1,7 +1,7 @@
 .content>p{
 	font-size: 18px;
 	font-weight: 400;
-	color: #ec662c;
+	color: #197dce;
 }
 .honor_swiper{
 	width: 860px;
@@ -31,7 +31,7 @@
 }
 figcaption{
 	font-size: 18px;
-	color: #ec662c;
+	color: #197dce;
 }
 .honor_swiper>ul>li img{
 	max-width: 640px;
@@ -193,7 +193,7 @@ figcaption{
 	top:200px;
 	z-index: 999;
 	font-size: 40px;
-	color: #ec662c;
+	color: #197dce;
 	display: none;
 	cursor: pointer;
 }

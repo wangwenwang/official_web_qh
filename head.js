@@ -1,6 +1,6 @@
 $(function(){
 
-	$("header").append('<div class="header_top"><div class="header_top_content"><div class="_top_content_left"><a href="http://120.25.76.52/general/login/index.php"  target="_blank">凯东源OA管理系统</a></div><div class="_top_content_right"><a href="javascript:;">APP下载<img src="images/header/QrCode_app.png"></a><a href="join_us.html">诚聘英才</a></div></div></div><div class="header_bottom"><div class="logo"><a href="index.html"><img src="images/header/logo.png"></a></div><div class="m_head_nav"><span></span><span></span></div><div class="m_head_navMeng"><div><span><a href="index.html">首页</a></span></div><div><span><a href="introduction.html">走进凯东源</a></span></div><div><span><a href="WarehousingService.html">产品服务</a></span></div><div><span><a href="companyNews.html">新闻资讯</a></span></div><div><span><a href="successful_case.html">成功案例</a></span></div><div><span><a href="contactUs.html">联系我们</a></span></div></div><ul><li><a class="header_high" href="index.html">首页</a></li><li><a  class="header_high_introduction" href="introduction.html">走进凯东源</a><ul><li><a href="introduction.html">公司介绍</a></li><li><a href="history.html">发展历程</a></li><li><a href="culture.html">企业文化</a></li><li><a href="honor.html">公司荣誉</a></li><li><a href="staff.html">员工风采</a></li></ul></li><li><a  class="header_high_TPL" href="WarehousingService.html">产品服务</a><ul><li><a href="WarehousingService.html">仓储服务</a></li><li><a href="DistributionService.html">配送服务</a></li><li><a href="WarehouseIntegration.html">仓配一体</a></li><li><a href="Value-added_logistics_service.html">增值服务</a></li><li><a href="CirculationService.html">流通服务</a></li><li><a href="VendingMachine.html">自动售货机</a></li></ul></li><li><a  class="header_high_companyNews" href="companyNews.html">新闻资讯</a><ul><li><a href="companyNews.html">公司新闻</a></li><li><a href="industryNews.html">行业新闻</a></li></ul></li><li><a  class="header_high" href="successful_case.html">成功案例</a></li><li><a  class="header_high_contactUs" href="contactUs.html">联系我们</a><ul><li><a href="contactUs.html">公司总部</a></li><li><a href="BranchOffice.html">子公司及办事处</a></li><li><a href="WarehouseAddress.html">仓库地址</a></li></ul></li></ul></div>');
+	$("header").append('<div class="header_top"><div class="header_top_content"><div class="_top_content_left"></div><div class="_top_content_right"><a href="javascript:;">APP下载<img src="images/header/QrCode_app.png"></a></div></div></div><div class="header_bottom"><div class="logo"><a href="index.html"><img src="images/header/logo.png"></a></div><div class="m_head_nav"><span></span><span></span></div><div class="m_head_navMeng"><div><span><a href="index.html">首页</a></span></div><div><span><a href="introduction.html">走进创销</a></span></div><div><span><a href="mhy_sfa.html">解决方案</a></span></div><div><span><a href="industryNews.html">资源中心</a></span></div><div><span><a href="contactUs.html">联系我们</a></span></div></div><ul><li><a class="header_high" href="index.html">首页</a></li><li><a  class="header_high_introduction" href="introduction.html">走进创销</a><ul><li><a href="introduction.html">公司介绍</a></li><li><a href="culture.html">企业文化</a></li></ul></li><li><a  class="header_high_TPL" href="mhy_sfa.html">解决方案</a><ul><li><a href="mhy_sfa.html">卖货易SFA</a></li><li><a href="mhy_sfa.html">CSA终端服务平台</a></li><li><a href="mhy_sfa.html">供应链金融服务</a></li></ul></li><li><a  class="header_high_companyNews" href="app_download.html">资源中心</a><ul><li><a href="app_download.html">应用下载</a></li><li><a href="industryNews.html">行业新闻</a></li></ul></li><li><a  class="header_high_contactUs" href="contactUs.html">联系我们</a><ul></ul></li></ul></div>');
 	$('head').append('<meta http-equiv="Content-Type" content="text/html;charset=gb2312"/><meta name="sogou_site_verification" content="ikkivvcKYS"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">')
 	var arr=window.location.href.split('/');
 
@@ -8,27 +8,27 @@ $(function(){
 
 		if($(this).attr("href")==arr[arr.length-1]){
 
-			$(this).css({"background-color":"#ec662c","color":"#fff"})
+			$(this).css({"background-color":"#197dce","color":"#fff"})
 		}
 	})
 
-	var arrName = arr[arr.length-1].slice(0,-5);
+	var arrName = arr[arr.length-1].slice(0,-5);	
 
 	if(arrName == "introduction" || arrName == "history" || arrName == "culture" || arrName == "honor" || arrName == "staff"){
 
-		$(".header_high_introduction").css({"background-color":"#ec662c","color":"#fff"})
+		$(".header_high_introduction").css({"background-color":"#197dce","color":"#fff"})
 
 	}else if(arrName == "WarehousingService" || arrName == "DistributionService" || arrName == "WarehouseIntegration" || arrName == "Value-added_logistics_service" || arrName == "CirculationService" || arrName == "VendingMachine"){
 
-		$(".header_high_TPL").css({"background-color":"#ec662c","color":"#fff"})
+		$(".header_high_TPL").css({"background-color":"#197dce","color":"#fff"})
 
 	}else if(arrName == "companyNews" || arrName == "industryNews"){
 
-		$(".header_high_companyNews").css({"background-color":"#ec662c","color":"#fff"})
+		$(".header_high_companyNews").css({"background-color":"#197dce","color":"#fff"})
 
 	}else if(arrName == "contactUs" || arrName == "BranchOffice" || arrName == "WarehouseAddress"){
 
-		$(".header_high_contactUs").css({"background-color":"#ec662c","color":"#fff"})
+		$(".header_high_contactUs").css({"background-color":"#197dce","color":"#fff"})
 	}
 
 

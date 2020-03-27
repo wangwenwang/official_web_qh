@@ -60,6 +60,7 @@ $(".circleContainer li").mouseenter(function(){
 })
 
 $(".swipper").mouseenter(function(){
+
 	clearInterval(timer);
 });
 
@@ -117,4 +118,5 @@ video.onclick=function(){
     this.play();
     video.controls = "controls";
 }
+
 				

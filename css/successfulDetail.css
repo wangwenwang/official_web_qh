@@ -30,7 +30,7 @@
 	display: block;
 }
 .detailLeft>div:hover{
-	background-color: #ec662c;
+	background-color: #197dce;
 }
 .detailLeft>div:hover a{
 	color: #fff;
@@ -49,7 +49,7 @@
 }
 .detailRight>.btn>i{
 	font-size: 25px;
-	color: #ec662c;
+	color: #197dce;
 	margin-right: 15px;
 	cursor: pointer;
 }
